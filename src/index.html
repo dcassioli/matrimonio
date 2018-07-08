@@ -1,0 +1,30 @@
+---
+title: Davide + Elisa
+layout: landing
+description: Il momento tanto atteso
+---
+
+<section id="banner">
+  <div class="inner">
+    <h2>{{ page.title }}</h2>
+    <p>{{ page.description | markdownify }}</p>
+  </div>
+  <a href="#dettagli" class="more scrolly">Dettagli</a>
+</section>
+
+<section id="dettagli" class="wrapper style1 special">
+  {% include sections/dettagli.html %}
+</section>
+
+<section id="la_coppia" class="wrapper alt style2">
+{% include sections/la_coppia.html %}
+</section>
+
+<section id="rsvp" class="wrapper style3 special" style="background-color: #fffafa">
+  {% include sections/rsvp.html %}
+</section>
+
+<section id="lista_nozze" class="wrapper style3 special">
+  {% include sections/donate_1_euro.html %}
+</section>
+

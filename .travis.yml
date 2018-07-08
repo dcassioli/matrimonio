@@ -1,0 +1,17 @@
+---
+sudo: required
+env:
+  global:
+    SSH_KEY_FILENAME: id_rsa_cassio_pk_1
+    DEPLOY_BRANCH: jekyll-dev
+services:
+  - docker
+
+jobs:
+  include:
+    - stage: build
+      script:
+        - ./prepare-key.sh
+        - chmod 600 "$SSH_KEY_FILENAME"
+        - docker-compose -f docker-compose-build-prod.yaml up --build --exit-code-from matrimonio
+        - ./deploy.sh
