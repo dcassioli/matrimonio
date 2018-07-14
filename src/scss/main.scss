@@ -1681,7 +1681,7 @@ $baseurl: '../images';
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/positano_2.jpg")'));
+			@include vendor('background-image', ('linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/cracovia_fiume_1.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1806,7 +1806,7 @@ $baseurl: '../images';
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/positano_2.jpg")'));
+			@include vendor('background-image', ('linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/cracovia_fiume_1.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1827,7 +1827,7 @@ $baseurl: '../images';
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/positano_2.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/cracovia_fiume_1.jpg")'));
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;

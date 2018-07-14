@@ -53,7 +53,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	#banner,
 	.wrapper.style4 {
-		background-image: url("#{$baseurl}/positano_2.jpg");
+		background-image: url("#{$baseurl}/cracovia_fiume_1.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -111,7 +111,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	#main {
 		> header {
-			background-image: url("#{$baseurl}/positano_2.jpg");
+			background-image: url("#{$baseurl}/cracovia_fiume_1.jpg");
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: cover;
