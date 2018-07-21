@@ -2,7 +2,7 @@
 # Can be used in your theme by calling 'site.title' and so on
 title: matrimonio
 description: Our marvellous wedding site
-url: https://dcassioli.github.io
+url: https://dcassioli.github.io/matrimonio
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: .tmp/src
@@ -15,7 +15,7 @@ exclude: ['assets']
 author:
   name: Davide Cassioli
   email: dcassioli@gmail.com
-  uri: https://dcassioli.github.io
+  uri: https://dcassioli.github.io/matrimonio
   bio: I&#39;m gonna get married!!!
   github: dcassioli
   facebook: dcassioli
