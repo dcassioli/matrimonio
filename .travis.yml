@@ -3,7 +3,7 @@ sudo: required
 env:
   global:
     SSH_KEY_FILENAME: id_rsa_cassio_pk_1
-    DEPLOY_BRANCH: jekyll-dev
+    DEPLOY_BRANCH: master
 services:
   - docker
 
