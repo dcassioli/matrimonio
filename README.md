@@ -1,5 +1,7 @@
 # matrimonio
 
+[![Build Status](https://travis-ci.org/dcassioli/matrimonio.svg)](https://travis-ci.org/dcassioli/matrimonio)
+
 > Our marvellous wedding site
 
 ## To get started

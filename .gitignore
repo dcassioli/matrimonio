@@ -55,6 +55,7 @@ tags
 node_modules/
 .tmp
 test/
+package-lock.json
 
 # Sublime
 *.sublime-project

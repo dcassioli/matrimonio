@@ -1,12 +1,13 @@
 source "http://rubygems.org"
 
-gem 'jekyll'
+gem 'jekyll', '3.7.3'
 
 # jekyll plugins
-gem 'jekyll-feed'
-gem 'jekyll-gist'
-gem 'jekyll-paginate'
-gem 'jekyll-sitemap'
-gem 'jekyll-seo-tag'
-gem 'jekyll-redirect-from'
-gem 'jekyll-compose', group: [:jekyll_plugins]
+gem 'jekyll-feed', '0.10.0'
+gem 'jekyll-gist', '1.5.0'
+gem 'jekyll-paginate', '1.1.0'
+gem 'jekyll-sitemap', '1.2.0'
+gem 'jekyll-seo-tag', '2.5.0'
+gem 'jekyll-redirect-from', '0.14.0'
+
+gem 'jekyll-compose', '0.8.0', group: [:jekyll_plugins]

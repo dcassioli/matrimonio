@@ -1,2 +1,2 @@
 #!/bin/sh
-docker-compose -f docker-compose-serve-dev.yaml down
+docker-compose -f docker-compose-serve-dev.yaml down --volumes
