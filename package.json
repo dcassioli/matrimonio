@@ -7,9 +7,10 @@
     "name": "Davide Cassioli",
     "email": "dcassioli@gmail.com"
   },
-  "devDependencies": {
+  "dependencies": {
     "autoprefixer": "9.0.1",
     "babel-preset-env": "1.7.0",
+    "babel-core": "6.26.3",
     "browser-sync": "2.24.6",
     "del": "3.0.0",
     "gh-pages": "1.2.0",
