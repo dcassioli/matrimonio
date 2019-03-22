@@ -3,7 +3,7 @@ source "http://rubygems.org"
 gem 'jekyll', '3.8.3'
 
 # jekyll plugins
-gem 'jekyll-feed', '0.10.0'
+gem 'jekyll-feed', '0.12.0'
 gem 'jekyll-gist', '1.5.0'
 gem 'jekyll-paginate', '1.1.0'
 gem 'jekyll-sitemap', '1.2.0'
