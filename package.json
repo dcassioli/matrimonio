@@ -22,7 +22,7 @@
     "gulp-gzip": "1.4.2",
     "gulp-htmlmin": "4.0.0",
     "gulp-if": "2.0.2",
-    "gulp-imagemin": "4.1.0",
+    "gulp-imagemin": "6.2.0",
     "gulp-inject": "4.3.2",
     "gulp-newer": "1.4.0",
     "gulp-postcss": "8.0.0",
